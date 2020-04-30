@@ -1,0 +1,11 @@
+caption: Зміст
+created: 20200430201959465
+icon: $:/favicon.ico
+modified: 20200430202311643
+swap: $:/plugins/boa/langswap/Content
+title: $:/plugins/boa/langswap/Зміст
+
+<div style="float:right;"><<tag Ukr>></div>
+<div class="sh-multicol2">
+<<list-links "[list[Ukr]]" "ol">>
+</div>

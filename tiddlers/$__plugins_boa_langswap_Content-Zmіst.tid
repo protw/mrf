@@ -1,0 +1,8 @@
+caption: Content-Зміст
+created: 20200430204827905
+list-after: $:/core/ui/SideBar/More
+modified: 20200430205408041
+tags: $:/tags/SideBar
+title: $:/plugins/boa/langswap/Content-Зміст
+
+<<tabs "$:/plugins/boa/langswap/Content $:/plugins/boa/langswap/Зміст $:/boa/custom-installed-list" "$:/plugins/boa/langswap/Content">> 

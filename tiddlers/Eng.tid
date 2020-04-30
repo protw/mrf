@@ -1,0 +1,10 @@
+color: #eae7c1
+created: 20200430204421021
+icon: $:/plugins/boa/langswap/img/GBR.svg
+list: [[Test note]]
+modified: 20200430204421021
+swap: Ukr
+tags: $:/tags/ViewTemplate
+title: Eng
+
+<<simple-navigation tag:Eng>>
