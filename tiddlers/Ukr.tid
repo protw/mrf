@@ -1,8 +1,8 @@
 color: #eae7c1
 created: 20200430204454066
 icon: $:/plugins/boa/langswap/img/UKR.svg
-list: [[Пробна примітка]]
-modified: 20200430204454066
+list: [[Проектна пропозиція]] [[Пробна примітка]]
+modified: 20200502085513991
 swap: Eng
 tags: $:/tags/ViewTemplate
 title: Ukr
