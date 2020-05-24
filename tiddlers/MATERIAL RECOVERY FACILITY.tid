@@ -1,6 +1,14 @@
 created: 20200430205738831
 icon: $:/boa/logo
-modified: 20200430205824275
+modified: 20200524084857571
 title: MATERIAL RECOVERY FACILITY
 
-{{$:/plugins/boa/langswap/Content-Зміст}}
+<div class="sh-multicol2">
+
+''Kyiv MRF'' - is a NAU Project Office startup related to the transformation of the Ukrainian capital as well as its citizens up to the standard of modern, respectable and sustainable city. In particular, we are planning on the reformation of the city's waste managemant system, making it environmentally and economically beneficial, via implementation of revolutionary for Ukraine material recovery facility, alongside the improvement of cityzen's perception of their surrounding by teaching and incentivizing them to participate in responsible waste disposal, sorting, reuse and recycling. We believe in clean environment, in and out of human heads, thus we invite You to join us.
+<br/><br/>
+
+''Kyiv MRF'' - це стартап Проектного Офісу НАУ, пов'язаний із трансформацією української столиці та її жителів, і приведенням її до стандарту сучасного, поважного та збалансованого міста. Зокрема, ми плануємо реформацію міської системи поводження з відходами, роблячи її екологічно та економічно корисною, шляхом впровадження революційного для України рекупераційного заводу, а також покращення публічного сприйняття навколишнього середовища, навчаючи та стимулюючи жителів міста до участі у відповідальній утилізації відходів, їх сортуванні, переробці та повторному використанні. Ми віримо у чисте середовище, як всередині, так і назовні людської свідомості, тож запрошуємо Вас приєднуватись.
+</div>
+
+<<tabs "$:/plugins/boa/langswap/Content $:/plugins/boa/langswap/Зміст" "$:/plugins/boa/langswap/Content">>

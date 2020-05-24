@@ -1,0 +1,13 @@
+created: 20200516203132047
+icon: $:/favicon.ico
+modified: 20200516203150022
+swap: _Зміст
+title: _Content
+
+<div class="sh-multicol2">
+<<list-links "[list[Eng]]" "ol">>
+</div>
+
+<!--
+<<alert-warning "Insert [[here|_Content]] your custom table of content or something similar">>
+-->
