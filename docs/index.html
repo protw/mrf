@@ -161,10 +161,6 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="https://tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
-<li>_Content</li>
-
-<li>_Зміст</li>
-
 <li>$:/boa/css/columns</li>
 
 <li>$:/boa/custom-installed-list</li>
@@ -237,10 +233,6 @@ Error message and password prompt
 
 <li>$:/plugins/boa/langswap</li>
 
-<li>$:/plugins/boa/langswap/img/GBR.svg</li>
-
-<li>$:/plugins/boa/langswap/img/UKR.svg</li>
-
 <li>$:/plugins/kookma/shiraz</li>
 
 <li>$:/plugins/kookma/shiraz/macros/image-basic</li>
@@ -291,7 +283,7 @@ Error message and password prompt
 
 <li>Budget efficiency of the project</li>
 
-<li>D:\boa_protw\_tmp\_1975AU\tiddlers\img_041 (1).png</li>
+<li>Content</li>
 
 <li>Draft of implementation measures of the project</li>
 
@@ -335,6 +327,8 @@ Error message and password prompt
 
 <li>Відповідальні підрозділи</li>
 
+<li>Зміст</li>
+
 <li>Інноваційність проекту</li>
 
 <li>Ключові показники оцінки результатів проекту</li>
@@ -363,24 +357,6 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
-<div created="20200516203132047" icon="$:/favicon.ico" modified="20200516203150022" swap="_Зміст" title="_Content" revision="0" bag="default">
-<pre>&lt;div class=&quot;sh-multicol2&quot;&gt;
-&lt;&lt;list-links &quot;[list[Eng]]&quot; &quot;ol&quot;&gt;&gt;
-&lt;/div&gt;
-
-&lt;!--
-&lt;&lt;alert-warning &quot;Insert [[here|_Content]] your custom table of content or something similar&quot;&gt;&gt;
---&gt;</pre>
-</div>
-<div created="20200516203243752" icon="$:/favicon.ico" modified="20200516203308992" swap="_Content" title="_Зміст" revision="0" bag="default">
-<pre>&lt;div class=&quot;sh-multicol2&quot;&gt;
-&lt;&lt;list-links &quot;[list[Ukr]]&quot; &quot;ol&quot;&gt;&gt;
-&lt;/div&gt;
-
-&lt;!--
-&lt;&lt;alert-warning &quot;Вставте [[тут|_Зміст]] власну таблицю змісту або щось подібне&quot;&gt;&gt;
---&gt;</pre>
-</div>
 <div tags="$:/tags/Stylesheet" title="$:/boa/css/columns" type="text/css" revision="0" bag="default">
 <pre>.columns {
   column-width: 10em;
@@ -1037,8 +1013,8 @@ Error message and password prompt
 &lt;div style=&quot;width:205px;font-size:24pt;line-height:24pt;margin-bottom:10px;padding-left:5px;text-align: center&quot;&gt;{{$:/boa/logo!!wiki-name}}&lt;/div&gt;
 &lt;!--&lt;div style=&quot;width:205px;font-size:12pt;line-height:14pt;margin-bottom:10px;padding-left:5px;&quot;&gt;{{$:/boa/logo!!wiki-caption}}&lt;/div&gt;--&gt;</pre>
 </div>
-<div created="20200516204014799" modified="20200516204023947" title="$:/config/DefaultSidebarTab" revision="0" bag="default">
-<pre>$:/plugins/boa/langswap/Content</pre>
+<div created="20200516204014799" modified="20200525173229605" title="$:/config/DefaultSidebarTab" revision="0" bag="default">
+<pre>$:/plugins/boa/langswap/content-Eng</pre>
 </div>
 <div caption="Kookma Plugin Library" created="20200306121057751" modified="20200321200315089" tags="$:/tags/PluginLibrary" title="$:/config/KookmaPluginLibrary" type="text/vnd.tiddlywiki" url="https://kookma.github.io/TW-PluginLibrary/library/index.html" revision="0" bag="default">
 <pre>Kookma plugin library is a set of plugins developed by [[Mohammad|https://github.com/kookma]]. A good recommendation is to backup your data before installing any plugins. These plugins distributed under  MIT license.
@@ -10461,7 +10437,7 @@ To use in other wikis, drag and drop this link to those wikis: [[Kookma Plugin L
 <div title="$:/isEncrypted" revision="0" bag="default">
 <pre>no</pre>
 </div>
-<div created="20200430203244326" modified="20200525161201865" title="$:/keepstate/utility/toggle-view-fields" revision="0" bag="default">
+<div created="20200430203244326" modified="20200525173200511" title="$:/keepstate/utility/toggle-view-fields" revision="0" bag="default">
 <pre>hide</pre>
 </div>
 <div author="Andreas Hahn" core-version="&gt;=5.1.8" dependents="" description="Tinka - an easy plugin packer" list="readme usage license" plugin-type="plugin" source="http://tinkaplugin.github.io" title="$:/plugins/ahahn/tinka" type="application/json" version="0.4.0" revision="0" bag="default">
@@ -10740,26 +10716,26 @@ To use in other wikis, drag and drop this link to those wikis: [[Kookma Plugin L
     }
 }</pre>
 </div>
-<div author="oleghbond" core-version="5.1.21" dependents="Shiraz Utility" description="BOA - Bilingual pages swapper" list="readme Component-description" plugin-type="plugin" title="$:/plugins/boa/langswap" type="application/json" version="0.0.5" revision="0" bag="default">
+<div author="oleghbond" core-version="5.1.21" dependents="Shiraz Utility" description="BOA - Bilingual pages swapper" list="readme Component-description" plugin-type="plugin" title="$:/plugins/boa/langswap" type="application/json" version="0.0.6" revision="0" bag="default">
 <pre>{
 	&quot;tiddlers&quot;: {
 		&quot;$:/plugins/boa/langswap/swapbutton&quot;: {
-			&quot;text&quot;: &quot;&lt;$button class=&lt;&lt;tv-config-toolbar-class&gt;&gt;&gt;\n&lt;$action-navigate $to={{!!swap}}/&gt;\n&lt;span title={{!!swap}}&gt;\n&lt;$list filter=\&quot;[&lt;currentTiddler&gt;tag[Ukr]]\&quot;&gt;\n{{$:/plugins/boa/langswap/img/GBR.svg}}\n&lt;/$list&gt;\n&lt;$list filter=\&quot;[&lt;currentTiddler&gt;tag[Eng]]\&quot;&gt;\n{{$:/plugins/boa/langswap/img/UKR.svg}}\n&lt;/$list&gt;\n&lt;/span&gt;\n&lt;/$button&gt;&quot;,
+			&quot;text&quot;: &quot;&lt;$button class=&lt;&lt;tv-config-toolbar-class&gt;&gt;&gt;\n&lt;$action-navigate $to={{!!swap}}/&gt;\n&lt;span title={{!!swap}}&gt;\n&lt;$list filter=\&quot;[&lt;currentTiddler&gt;tag[Ukr]]\&quot;&gt;\n{{$:/plugins/boa/langswap/img/Eng.svg}}\n&lt;/$list&gt;\n&lt;$list filter=\&quot;[&lt;currentTiddler&gt;tag[Eng]]\&quot;&gt;\n{{$:/plugins/boa/langswap/img/Ukr.svg}}\n&lt;/$list&gt;\n&lt;/span&gt;\n&lt;/$button&gt;&quot;,
 			&quot;title&quot;: &quot;$:/plugins/boa/langswap/swapbutton&quot;,
 			&quot;description&quot;: &quot;switching between identical pages in Ukrainian and English&quot;,
-			&quot;caption&quot;: &quot;{{$:/plugins/boa/langswap/img/swap.svg}} swapbutton&quot;,
+			&quot;caption&quot;: &quot;{{$:/core/images/globe}} swapbutton&quot;,
 			&quot;type&quot;: &quot;text/vnd.tiddlywiki&quot;,
 			&quot;tags&quot;: &quot;$:/tags/ViewToolbar&quot;
 		},
-		&quot;$:/plugins/boa/langswap/img/GBR.svg&quot;: {
-			&quot;title&quot;: &quot;$:/plugins/boa/langswap/img/GBR.svg&quot;,
+		&quot;$:/plugins/boa/langswap/img/Eng.svg&quot;: {
+			&quot;title&quot;: &quot;$:/plugins/boa/langswap/img/Eng.svg&quot;,
 			&quot;type&quot;: &quot;image/svg+xml&quot;,
-			&quot;text&quot;: &quot;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot;?&gt;\r\n&lt;svg xmlns=\&quot;http://www.w3.org/2000/svg\&quot; width=\&quot;16px\&quot; height=\&quot;16px\&quot; viewBox=\&quot;0 0 15.73 7.83\&quot;&gt;\r\n &lt;g&gt;\r\n  &lt;polygon fill=\&quot;#000066\&quot; points=\&quot;0,0 15.65,0 15.65,7.83 0,7.83 \&quot;/&gt;\r\n  &lt;path fill=\&quot;white\&quot; d=\&quot;M0 0l0 0.88 13.9 6.95 1.75 0 0 -0.88 -13.9 -6.95 -1.75 0zm15.65 0l0 0.88 -13.9 6.95 -1.75 0 0 -0.88 13.9 -6.95 1.75 0z\&quot;/&gt;\r\n  &lt;path fill=\&quot;white\&quot; d=\&quot;M6.52 0l0 7.83 2.61 0 0 -7.83 -2.61 0zm-6.52 2.61l0 2.61 15.65 0 0 -2.61 -15.65 0z\&quot;/&gt;\r\n  &lt;polygon fill=\&quot;#CC0000\&quot; points=\&quot;15.65,7.83 10.44,5.22 11.6,5.22 15.65,7.24\&quot;/&gt;\r\n  &lt;polygon fill=\&quot;#CC0000\&quot; points=\&quot;9.35,2.61 14.56,0 15.73,0 10.51,2.61\&quot;/&gt;\r\n  &lt;polygon fill=\&quot;#CC0000\&quot; points=\&quot;0,0 5.22,2.61 4.05,2.61 0,0.58\&quot;/&gt;\r\n  &lt;polygon fill=\&quot;#CC0000\&quot; points=\&quot;0,7.83 5.22,5.22 6.39,5.22 1.17,7.83\&quot;/&gt;\r\n  &lt;polygon fill=\&quot;#CC0000\&quot; points=\&quot;7.04,0 7.04,7.83 8.61,7.83 8.61,0\&quot;/&gt;\r\n  &lt;polygon fill=\&quot;#CC0000\&quot; points=\&quot;0,3.13 0,4.7 15.65,4.7 15.65,3.13\&quot;/&gt;\r\n &lt;/g&gt;\r\n&lt;/svg&gt;\r\n&quot;
+			&quot;text&quot;: &quot;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot;?&gt;\r\n&lt;svg xmlns=\&quot;http://www.w3.org/2000/svg\&quot; width=\&quot;16px\&quot; height=\&quot;16px\&quot; version=\&quot;1.1\&quot; viewBox=\&quot;0 0 16.16 16.16\&quot;&gt;\r\n &lt;g &gt;\r\n  &lt;g&gt;\r\n   &lt;rect fill=\&quot;#F0F0F0\&quot; width=\&quot;16.16\&quot; height=\&quot;16.16\&quot;/&gt;\r\n   &lt;polygon fill=\&quot;#D80027\&quot; points=\&quot;0,9.6 6.57,9.6 6.57,16.16 9.6,16.16 9.6,9.6 16.16,9.6 16.16,6.57 9.6,6.57 9.6,0 6.57,0 6.57,6.57 0,6.57 \&quot;/&gt;\r\n   &lt;g&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;12.85,10.54 16.16,13.86 16.16,10.54 \&quot;/&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;10.54,10.54 16.16,16.16 16.16,14.57 12.13,10.54 \&quot;/&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;14.67,16.16 10.54,12.04 10.54,16.16 \&quot;/&gt;\r\n   &lt;/g&gt;\r\n   &lt;polygon fill=\&quot;#F0F0F0\&quot; points=\&quot;10.54,10.54 16.16,16.16 16.16,14.57 12.13,10.54 \&quot;/&gt;\r\n   &lt;polygon fill=\&quot;#D80027\&quot; points=\&quot;10.54,10.54 16.16,16.16 16.16,14.57 12.13,10.54 \&quot;/&gt;\r\n   &lt;g&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;2.54,10.54 0,13.08 0,10.54 \&quot;/&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;5.62,11.26 5.62,16.16 0.72,16.16 \&quot;/&gt;\r\n   &lt;/g&gt;\r\n   &lt;polygon fill=\&quot;#D80027\&quot; points=\&quot;4.03,10.54 0,14.57 0,16.16 0,16.16 5.62,10.54 \&quot;/&gt;\r\n   &lt;g&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;3.32,5.62 0,2.3 0,5.62 \&quot;/&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;5.62,5.62 0,0 0,1.59 4.03,5.62 \&quot;/&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;1.5,0 5.62,4.12 5.62,0 \&quot;/&gt;\r\n   &lt;/g&gt;\r\n   &lt;polygon fill=\&quot;#F0F0F0\&quot; points=\&quot;5.62,5.62 0,0 0,1.59 4.03,5.62 \&quot;/&gt;\r\n   &lt;polygon fill=\&quot;#D80027\&quot; points=\&quot;5.62,5.62 0,0 0,1.59 4.03,5.62 \&quot;/&gt;\r\n   &lt;g&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;13.63,5.62 16.16,3.09 16.16,5.62 \&quot;/&gt;\r\n    &lt;polygon fill=\&quot;#0052B4\&quot; points=\&quot;10.54,4.91 10.54,0 15.45,0 \&quot;/&gt;\r\n   &lt;/g&gt;\r\n   &lt;polygon fill=\&quot;#D80027\&quot; points=\&quot;12.13,5.62 16.16,1.59 16.16,0 16.16,0 10.54,5.62 \&quot;/&gt;\r\n  &lt;/g&gt;\r\n &lt;/g&gt;\r\n&lt;/svg&gt;\r\n&quot;
 		},
-		&quot;$:/plugins/boa/langswap/img/UKR.svg&quot;: {
-			&quot;title&quot;: &quot;$:/plugins/boa/langswap/img/UKR.svg&quot;,
+		&quot;$:/plugins/boa/langswap/img/Ukr.svg&quot;: {
+			&quot;title&quot;: &quot;$:/plugins/boa/langswap/img/Ukr.svg&quot;,
 			&quot;type&quot;: &quot;image/svg+xml&quot;,
-			&quot;text&quot;: &quot;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot;?&gt;\r\n&lt;svg xmlns=\&quot;http://www.w3.org/2000/svg\&quot; width=\&quot;16px\&quot; height=\&quot;16px\&quot; viewBox=\&quot;0 0 15.68 7.84\&quot;&gt;\r\n &lt;g&gt;\r\n  &lt;polygon fill=\&quot;#FFD500\&quot; points=\&quot;0,0 15.68,0 15.68,7.84 0,7.84\&quot;/&gt;\r\n  &lt;polygon fill=\&quot;#005BBB\&quot; points=\&quot;0,0 15.68,0 15.68,3.92 0,3.92\&quot;/&gt;\r\n &lt;/g&gt;\r\n&lt;/svg&gt;\r\n&quot;
+			&quot;text&quot;: &quot;&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot;?&gt;\r\n&lt;svg xmlns=\&quot;http://www.w3.org/2000/svg\&quot; width=\&quot;16px\&quot; height=\&quot;16px\&quot; viewBox=\&quot;0 0 16.35 16.35\&quot;&gt;\r\n &lt;g&gt;\r\n   &lt;rect fill=\&quot;#FFDA44\&quot; width=\&quot;16.35\&quot; height=\&quot;16.35\&quot;/&gt;\r\n   &lt;rect fill=\&quot;#338AF3\&quot; width=\&quot;16.35\&quot; height=\&quot;8.17\&quot;/&gt;\r\n &lt;/g&gt;\r\n&lt;/svg&gt;\r\n&quot;
 		},
 		&quot;Eng&quot;: {
 			&quot;text&quot;: &quot;&lt;&lt;simple-navigation tag:Eng&gt;&gt;\n&quot;,
@@ -10767,6 +10743,7 @@ To use in other wikis, drag and drop this link to those wikis: [[Kookma Plugin L
 			&quot;tags&quot;: &quot;$:/tags/ViewTemplate&quot;,
 			&quot;swap&quot;: &quot;Ukr&quot;,
 			&quot;list&quot;: &quot;&quot;,
+			&quot;icon&quot;: &quot;$:/plugins/boa/langswap/img/Eng.svg&quot;,
 			&quot;color&quot;: &quot;#eae7c1&quot;
 		},
 		&quot;Ukr&quot;: {
@@ -10775,93 +10752,49 @@ To use in other wikis, drag and drop this link to those wikis: [[Kookma Plugin L
 			&quot;tags&quot;: &quot;$:/tags/ViewTemplate&quot;,
 			&quot;swap&quot;: &quot;Eng&quot;,
 			&quot;list&quot;: &quot;&quot;,
-			&quot;icon&quot;: &quot;$:/plugins/boa/langswap/img/UKR.svg&quot;,
+			&quot;icon&quot;: &quot;$:/plugins/boa/langswap/img/Ukr.svg&quot;,
 			&quot;color&quot;: &quot;#eae7c1&quot;
 		},
-		&quot;$:/plugins/boa/langswap/Content&quot;: {
-			&quot;text&quot;: &quot;{{_Content}}&quot;,
-			&quot;title&quot;: &quot;$:/plugins/boa/langswap/Content&quot;,
+		&quot;$:/plugins/boa/langswap/content-Eng&quot;: {
+			&quot;text&quot;: &quot;{{Content}}&quot;,
+			&quot;title&quot;: &quot;$:/plugins/boa/langswap/content-Eng&quot;,
 			&quot;tags&quot;: &quot;$:/tags/SideBar&quot;,
 			&quot;list-before&quot;: &quot;$:/core/ui/SideBar/Open&quot;,
 			&quot;icon&quot;: &quot;$:/favicon.ico&quot;,
-			&quot;caption&quot;: &quot;{{$:/plugins/boa/langswap/img/GBR.svg}}&quot;
+			&quot;caption&quot;: &quot;{{$:/plugins/boa/langswap/img/Eng.svg}}&quot;
 		},
-		&quot;$:/plugins/boa/langswap/Зміст&quot;: {
-			&quot;text&quot;: &quot;{{_Зміст}}&quot;,
-			&quot;title&quot;: &quot;$:/plugins/boa/langswap/Зміст&quot;,
+		&quot;$:/plugins/boa/langswap/content-Ukr&quot;: {
+			&quot;text&quot;: &quot;{{Зміст}}&quot;,
+			&quot;title&quot;: &quot;$:/plugins/boa/langswap/content-Ukr&quot;,
 			&quot;tags&quot;: &quot;$:/tags/SideBar&quot;,
-			&quot;list-after&quot;: &quot;$:/plugins/boa/langswap/Content&quot;,
+			&quot;list-after&quot;: &quot;$:/plugins/boa/langswap/content-Eng&quot;,
 			&quot;icon&quot;: &quot;$:/favicon.ico&quot;,
-			&quot;caption&quot;: &quot;{{$:/plugins/boa/langswap/img/UKR.svg}}&quot;
+			&quot;caption&quot;: &quot;{{$:/plugins/boa/langswap/img/Ukr.svg}}&quot;
 		},
-		&quot;_Content&quot;: {
-			&quot;title&quot;: &quot;_Content&quot;,
-			&quot;text&quot;: &quot;&lt;&lt;alert-warning \&quot;Insert [[here|_Content]] your custom table of content or something similar\&quot;&gt;&gt;&quot;,
-			&quot;swap&quot;: &quot;_Зміст&quot;,
+		&quot;Content&quot;: {
+			&quot;title&quot;: &quot;Content&quot;,
+			&quot;text&quot;: &quot;&lt;&lt;alert-warning \&quot;Insert here [[Content]] your custom table of content or something similar\&quot;&gt;&gt;&quot;,
+			&quot;tags&quot;: &quot;Eng&quot;,
+			&quot;swap&quot;: &quot;Зміст&quot;,
 			&quot;icon&quot;: &quot;$:/favicon.ico&quot;
 		},
-		&quot;_Зміст&quot;: {
-			&quot;title&quot;: &quot;_Зміст&quot;,
-			&quot;text&quot;: &quot;&lt;&lt;alert-warning \&quot;Вставте [[тут|_Зміст]] власну таблицю змісту або щось подібне\&quot;&gt;&gt;&quot;,
-			&quot;swap&quot;: &quot;_Content&quot;,
+		&quot;Зміст&quot;: {
+			&quot;title&quot;: &quot;Зміст&quot;,
+			&quot;text&quot;: &quot;&lt;&lt;alert-warning \&quot;Вставте тут [[Зміст]] власну таблицю змісту або щось подібне\&quot;&gt;&gt;&quot;,
+			&quot;tags&quot;: &quot;Ukr&quot;,
+			&quot;swap&quot;: &quot;Content&quot;,
 			&quot;icon&quot;: &quot;$:/favicon.ico&quot;
 		},
 		&quot;$:/plugins/boa/langswap/readme&quot;: {
 			&quot;title&quot;: &quot;$:/plugins/boa/langswap/readme&quot;,
-			&quot;text&quot;: &quot;Plugin is:\n\n* titled &lt;&lt;mono \&quot;BOA - Language page swapper\&quot;&gt;&gt;,\n* placed locally at [[$:/plugins/boa/langswap]],\n* placed globally at [[https://protw.github.io/templ]],\n* dependent on other plugins Shiraz and Utility.\n\nThe plugin sets an additional button &lt;&lt;doc-svg $:/plugins/boa/langswap/swap.svg&gt;&gt; at the top right of a tiddler intended for switching between identical pages in //Ukrainian// and //English//. The name of the translated matching tiddler is written in the tiddler field &lt;&lt;mono swap&gt;&gt;.\n\nFor example, we have two matching tiddlers titled &lt;&lt;mono Стаття&gt;&gt; and &lt;&lt;mono Article&gt;&gt;, respectively in Ukrainian and English. In order to ensure correct transition from tiddler &lt;&lt;mono Стаття&gt;&gt; in its field &lt;&lt;mono swap&gt;&gt; the value ''Article'' must be specified, and in tiddler &lt;&lt;mono Article&gt;&gt; in the same field &lt;&lt;mono swap&gt;&gt; -- the value ''Стаття'', respectively. Also, each of the two tiddlers must be tagged with their language, &lt;&lt;tag Ukr&gt;&gt; or &lt;&lt;tag Eng&gt;&gt;, respectively.\n\nAdditionally, the plugin creates two tag tiddlers [[Ukr]] and [[Eng]], each of which stores an ordered list of all the tiddlers tagged with the ''Ukr'' or ''Eng'', respectively. Moreover, the order of the tiddlers in these lists can be rearranged using //drag-and-drop// by pre-clicking on the tag icon ''Ukr'' or ''Eng''. And that's not all - there are a couple of navigation buttons &lt;&lt;mono \&quot;previous | next\&quot;&gt;&gt; in the bottom of each tiddler from the list. The functionality specified here is provided with a &lt;&lt;mono \&quot;simple-navigation\&quot;&gt;&gt; macros, which is part of the plugin [[$:/plugins/kookma/utility]].\n\nAlso, the plugin creates two plane content tables &lt;&lt;mono Зміст&gt;&gt; and &lt;&lt;mono Content&gt;&gt; based on the [[Ukr]] and [[Eng]] tags, respectively. These two tables of content are placed in the sidebar under &lt;&lt;mono Content-Зміст&gt;&gt; tab.&quot;
+			&quot;text&quot;: &quot;Plugin is:\n\n* titled &lt;&lt;mono \&quot;BOA - Language page swapper\&quot;&gt;&gt;,\n* placed locally at [[$:/plugins/boa/langswap]],\n* placed globally at [[https://protw.github.io/templ]],\n* dependent on other plugins Shiraz and Utility.\n\nThe plugin sets an additional button {{$:/plugins/boa/langswap/img/UKR.svg}} (or {{$:/plugins/boa/langswap/img/GBR.svg}}) at the top right of a tiddler intended for switching between identical pages in //Ukrainian// and //English//. The name of the translated matching tiddler is written in the tiddler field &lt;&lt;mono swap&gt;&gt;.\n\nFor example, there are two matching tiddlers titled &lt;&lt;mono Стаття&gt;&gt; and &lt;&lt;mono Article&gt;&gt;, respectively in Ukrainian and English. In order to ensure correct transition from tiddler &lt;&lt;mono Стаття&gt;&gt; the value ''Article'' must be specified in its field &lt;&lt;mono swap&gt;&gt;, and the value ''Стаття'' in tiddler &lt;&lt;mono Article&gt;&gt; in the same field &lt;&lt;mono swap&gt;&gt;, respectively. Also, each of the two tiddlers must be tagged with their language, &lt;&lt;tag Ukr&gt;&gt; or &lt;&lt;tag Eng&gt;&gt;, respectively.\n\nAdditionally, the plugin creates (contains) two tag tiddlers [[Ukr]] and [[Eng]], each of which stores an ordered list of all the tiddlers tagged with the ''Ukr'' or ''Eng'', respectively. The order of the tiddlers in these lists can be rearranged using //drag-and-drop// by pre-clicking on the tag icon ''Ukr'' or ''Eng''. And that's not all - there are a couple of navigation buttons &lt;&lt;mono \&quot;previous | next\&quot;&gt;&gt; in the bottom of each tiddler from the list. The functionality specified here is provided with a &lt;&lt;mono \&quot;simple-navigation\&quot;&gt;&gt; macros, which is part of the plugin [[$:/plugins/kookma/utility]].\n\nAlso, the plugin creates two plane content tables &lt;&lt;mono Зміст&gt;&gt; and &lt;&lt;mono Content&gt;&gt; based on the [[Ukr]] and [[Eng]] tags, respectively. These two tables of content are placed in the sidebar. The code inside these two tiddlers creating the table of content of the wiki can be customized by a user to whatever else.\n\n!! Localization of the plugin\n\nThe localization of this plugin presumes its readjustment into an alternative arbitrary pair of languages. This process comprises the following simple steps:\n\n# put the plugin code somewhere at your computer as plain text file titled (by default) `$__plugins_boa_langswap.tid` and open it by a text editor a type of //Notepad//;\n# perform substitution through the whole document of the language names &lt;&lt;mono Ukrainian&gt;&gt; and &lt;&lt;mono English&gt;&gt; into two names of the selected alternative languages.\n# perform substitution through the whole document of the tokens &lt;&lt;mono Зміст&gt;&gt; and &lt;&lt;mono Content&gt;&gt; into two equivalent terms of the word //Content// in the two selected alternative languages, accordingly.\n# perform substitution of the //svg-code// of the two flags containing in the field &lt;&lt;mono text&gt;&gt; in tiddlers $:/plugins/boa/langswap/img/Ukr.svg and $:/plugins/boa/langswap/img/Eng.svg with //svg-code// of a selected pair of alternative languages. Two tips: \n#* both width and height given inside the custom //svg-code// is &lt;&lt;mono 16px&gt;&gt;; \n#* do not forget to arrange escape characters inside the //svg-code// according to rules of the JSON-format;\n# perform substitution through the whole document of \n#* the token &lt;&lt;mono Ukr&gt;&gt; to a token of the first selected alternative language, say, &lt;&lt;mono Lang1&gt;&gt; and \n#* the token &lt;&lt;mono Eng&gt;&gt; to a token of the second selected alternative language, say, &lt;&lt;mono Lang2&gt;&gt;;\n# that's all, use and enjoy...\n&quot;
 		},
 		&quot;$:/plugins/boa/langswap/Component-description&quot;: {
-			&quot;text&quot;: &quot;This plugin contains the following shadow tiddlers:\n\n|table-striped-row|k\n|!Component|!Description|\n|^$:/plugins/boa/langswap/swapbutton |^The swap button macro code |\n|^$:/plugins/boa/langswap/img/GBR.svg |^Great Britain's flag |\n|^$:/plugins/boa/langswap/img/UKR.svg |^Ukrainian flag |\n|^[[Eng]] |^Tag ''Eng'' tiddler, contains macros `&lt;&lt;simple-navigation tag:Eng&gt;&gt;` for `previous | next` navigation |\n|^[[Ukr]] |^Tag ''Ukr'' tiddler, contains navigation macros `&lt;&lt;simple-navigation tag:Ukr&gt;&gt;` for `previous | next` navigation |\n|^[[$:/plugins/boa/langswap/Зміст]] |^This tiddler contains the custom TOC in Ukrainian transcluded by `{{_Зміст}}` and is used for displaying TOC at the side bar.  |\n|^$:/plugins/boa/langswap/Content |^This tiddler contains the custom TOC in English transcluded by `{{_Content}}` and is used for displaying TOC at the side bar. |\n|^[[_Зміст]] |^Container for customizable Ukrainian TOC |\n|^[[_Content]] |^Container for customizable English TOC |\n|^$:/plugins/boa/langswap/readme |^Readme |\n|^$:/plugins/boa/langswap/Component-description |^This component description |\n&quot;,
+			&quot;text&quot;: &quot;This plugin contains the following shadow tiddlers:\n\n|table-striped-row|k\n|!Component|!Description|\n|^$:/plugins/boa/langswap/swapbutton |^The swap button macro code |\n|^$:/plugins/boa/langswap/img/Eng.svg |^Great Britain's flag |\n|^$:/plugins/boa/langswap/img/Ukr.svg |^Ukrainian flag |\n|^[[Eng]] |^Tag ''Eng'' tiddler, contains macros `&lt;&lt;simple-navigation tag:Eng&gt;&gt;` for `previous | next` navigation |\n|^[[Ukr]] |^Tag ''Ukr'' tiddler, contains navigation macros `&lt;&lt;simple-navigation tag:Ukr&gt;&gt;` for `previous | next` navigation |\n|^[[$:/plugins/boa/langswap/content-Ukr]] |^This tiddler contains the custom TOC in Ukrainian transcluded by `{{Зміст}}` and is used for displaying TOC at the side bar.  |\n|^$:/plugins/boa/langswap/content-Eng |^This tiddler contains the custom TOC in English transcluded by `{{Content}}` and is used for displaying TOC at the side bar. |\n|^[[Зміст]] |^Container for customizable Ukrainian TOC |\n|^[[Content]] |^Container for customizable English TOC |\n|^$:/plugins/boa/langswap/readme |^Readme |\n|^$:/plugins/boa/langswap/Component-description |^This component description |\n&quot;,
 			&quot;title&quot;: &quot;$:/plugins/boa/langswap/Component-description&quot;
 		}
 	}
 }</pre>
-</div>
-<div created="20200516211350903" modified="20200516211353437" title="$:/plugins/boa/langswap/img/GBR.svg" type="image/svg+xml" revision="0" bag="default">
-<pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;16px&quot; height=&quot;16px&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16.16 16.16&quot;&gt;
- &lt;g &gt;
-  &lt;g&gt;
-   &lt;rect fill=&quot;#F0F0F0&quot; width=&quot;16.16&quot; height=&quot;16.16&quot;/&gt;
-   &lt;polygon fill=&quot;#D80027&quot; points=&quot;0,9.6 6.57,9.6 6.57,16.16 9.6,16.16 9.6,9.6 16.16,9.6 16.16,6.57 9.6,6.57 9.6,0 6.57,0 6.57,6.57 0,6.57 &quot;/&gt;
-   &lt;g&gt;
-    &lt;polygon fill=&quot;#0052B4&quot; points=&quot;12.85,10.54 16.16,13.86 16.16,10.54 &quot;/&gt;
-    &lt;polygon fill=&quot;#0052B4&quot; points=&quot;10.54,10.54 16.16,16.16 16.16,14.57 12.13,10.54 &quot;/&gt;
-    &lt;polygon fill=&quot;#0052B4&quot; points=&quot;14.67,16.16 10.54,12.04 10.54,16.16 &quot;/&gt;
-   &lt;/g&gt;
-   &lt;polygon fill=&quot;#F0F0F0&quot; points=&quot;10.54,10.54 16.16,16.16 16.16,14.57 12.13,10.54 &quot;/&gt;
-   &lt;polygon fill=&quot;#D80027&quot; points=&quot;10.54,10.54 16.16,16.16 16.16,14.57 12.13,10.54 &quot;/&gt;
-   &lt;g&gt;
-    &lt;polygon fill=&quot;#0052B4&quot; points=&quot;2.54,10.54 0,13.08 0,10.54 &quot;/&gt;
-    &lt;polygon fill=&quot;#0052B4&quot; points=&quot;5.62,11.26 5.62,16.16 0.72,16.16 &quot;/&gt;
-   &lt;/g&gt;
-   &lt;polygon fill=&quot;#D80027&quot; points=&quot;4.03,10.54 0,14.57 0,16.16 0,16.16 5.62,10.54 &quot;/&gt;
-   &lt;g&gt;
-    &lt;polygon fill=&quot;#0052B4&quot; points=&quot;3.32,5.62 0,2.3 0,5.62 &quot;/&gt;
-    &lt;polygon fill=&quot;#0052B4&quot; points=&quot;5.62,5.62 0,0 0,1.59 4.03,5.62 &quot;/&gt;
-    &lt;polygon fill=&quot;#0052B4&quot; points=&quot;1.5,0 5.62,4.12 5.62,0 &quot;/&gt;
-   &lt;/g&gt;
-   &lt;polygon fill=&quot;#F0F0F0&quot; points=&quot;5.62,5.62 0,0 0,1.59 4.03,5.62 &quot;/&gt;
-   &lt;polygon fill=&quot;#D80027&quot; points=&quot;5.62,5.62 0,0 0,1.59 4.03,5.62 &quot;/&gt;
-   &lt;g&gt;
-    &lt;polygon fill=&quot;#0052B4&quot; points=&quot;13.63,5.62 16.16,3.09 16.16,5.62 &quot;/&gt;
-    &lt;polygon fill=&quot;#0052B4&quot; points=&quot;10.54,4.91 10.54,0 15.45,0 &quot;/&gt;
-   &lt;/g&gt;
-   &lt;polygon fill=&quot;#D80027&quot; points=&quot;12.13,5.62 16.16,1.59 16.16,0 16.16,0 10.54,5.62 &quot;/&gt;
-  &lt;/g&gt;
- &lt;/g&gt;
-&lt;/svg&gt;
-</pre>
-</div>
-<div created="20200516211756117" modified="20200516211803364" title="$:/plugins/boa/langswap/img/UKR.svg" type="image/svg+xml" revision="0" bag="default">
-<pre>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;16px&quot; height=&quot;16px&quot; viewBox=&quot;0 0 16.35 16.35&quot;&gt;
- &lt;g&gt;
-   &lt;rect fill=&quot;#FFDA44&quot; width=&quot;16.35&quot; height=&quot;16.35&quot;/&gt;
-   &lt;rect fill=&quot;#338AF3&quot; width=&quot;16.35&quot; height=&quot;8.17&quot;/&gt;
- &lt;/g&gt;
-&lt;/svg&gt;
-</pre>
 </div>
 <div author="Mohammad Rahmani" core-version="&gt;=5.1.21" dependents="" description="Shiraz" list="readme history license" plugin-type="plugin" source="https://github.com/kookma/TW-Shiraz" title="$:/plugins/kookma/shiraz" type="application/json" version="2.1.1" revision="0" bag="default">
 <pre>{
@@ -11988,7 +11921,7 @@ To use in other wikis, drag and drop this link to those wikis: [[Kookma Plugin L
 }
 &lt;/pre&gt;</pre>
 </div>
-<div created="20181010162537613" description="Toggle field handling in view mode" list-after="$:/core/ui/ViewTemplate/tags" modified="20200525161201865" tags="" title="$:/plugins/kookma/utility/viewtemplate/view-fields" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20181010162537613" description="Toggle field handling in view mode" list-after="$:/core/ui/ViewTemplate/tags" modified="20200525173200510" tags="" title="$:/plugins/kookma/utility/viewtemplate/view-fields" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>\define lingo-base() $:/language/EditTemplate/
 \define config-title()
 $:/config/EditTemplateFields/Visibility/$(currentField)$
@@ -12707,8 +12640,14 @@ $value={{$:/temp/newfieldvalue}}/&gt;
 * (potentially) Increasing the efficiency of the economic system through the introduction of preferential prices for secondary materials for Ukrainian enterprises;
 * Efficient, transparent use of the budget, economy of budgetary funds.</pre>
 </div>
-<div _canonical_uri="./images/D%253A%255Cboa_protw%255C_tmp%255C_1975AU%255Ctiddlers%255Cimg_041%2520(1).png" title="D:\boa_protw\_tmp\_1975AU\tiddlers\img_041 (1).png" type="image/png" revision="2" bag="default">
-<pre></pre>
+<div created="20200525172433687" icon="$:/favicon.ico" modified="20200525173156431" swap="Зміст" tags="Eng" title="Content" revision="0" bag="default">
+<pre>&lt;div class=&quot;sh-multicol2&quot;&gt;
+&lt;&lt;list-links &quot;[list[Eng]] -[[Content]]&quot; &quot;ol&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;!--
+&lt;&lt;alert-warning &quot;Insert here [[Content]] your custom table of content or something similar&quot;&gt;&gt;
+--&gt;
+</pre>
 </div>
 <div created="20200518194928750" modified="20200518195321151" swap="Орієнтовний план заходів з реалізації проекту" tags="Eng" title="Draft of implementation measures of the project" revision="0" bag="default">
 <pre>!!!Task 1: Planning and creation of a primary waste sorting system in the city area: purchase and installation of special containers for separate waste collection.
@@ -12731,7 +12670,7 @@ $value={{$:/temp/newfieldvalue}}/&gt;
 
 More derailed look at work breakdown and time framework is given in: [[Work breakdown.png]]; [[Gantt chart.png]].</pre>
 </div>
-<div color="#eae7c1" created="20200430204421021" icon="$:/plugins/boa/langswap/img/GBR.svg" list="Issue [[Suggested solution and its justification]] [[Key evaluation indicators for project results]] [[Social effectiveness and accessability of the project]] [[Budget efficiency of the project]] [[Innovation level of the project]] [[Draft of implementation measures of the project]] [[Risk analysis of the project]] [[Relevant subdivisions]] [[Stakeholder analysis]] [[Work breakdown.png]] [[Gantt chart.png]] [[Project authors]]" modified="20200523105921106" swap="Ukr" tags="$:/tags/ViewTemplate" title="Eng" revision="0" bag="default">
+<div color="#eae7c1" created="20200525172622941" icon="$:/plugins/boa/langswap/img/Eng.svg" list="Issue [[Suggested solution and its justification]] [[Key evaluation indicators for project results]] [[Social effectiveness and accessability of the project]] [[Budget efficiency of the project]] [[Innovation level of the project]] [[Draft of implementation measures of the project]] [[Risk analysis of the project]] [[Relevant subdivisions]] [[Stakeholder analysis]] [[Work breakdown.png]] [[Gantt chart.png]] [[Project authors]]" modified="20200525172622941" swap="Ukr" tags="$:/tags/ViewTemplate" title="Eng" revision="0" bag="default">
 <pre>&lt;&lt;simple-navigation tag:Eng&gt;&gt;
 </pre>
 </div>
@@ -12760,7 +12699,7 @@ Finally, the events of 2016-2017 related to the tragedy at the Lviv landfill and
 * Growth of the image of the capital of Ukraine and the country as a whole in the world, as a conscious and responsible state that adheres to modern environmental standards;
 * (tangent, potential) Increase in the share of products made from secondary materials in the country, due to the acquisition of sorted materials by manufacturing enterprises.</pre>
 </div>
-<div created="20200430205738831" icon="$:/boa/logo" modified="20200525155135892" title="MATERIAL RECOVERY FACILITY" revision="0" bag="default">
+<div created="20200430205738831" icon="$:/boa/logo" modified="20200525172933736" title="MATERIAL RECOVERY FACILITY" revision="0" bag="default">
 <pre>&lt;div class=&quot;sh-multicol2&quot; style=&quot;line-height:120%;&quot;&gt;
 
 ''Kyiv MRF'' - is a joint project initiative (startup) of the Project Office of the National Aviation University and the National Ecological Center of Ukraine, aimed at transforming the Ukrainian capital into a modern, sustainable and balanced city and, above all, reforming the municipal waste management system, namely its transformation into environmental and economically useful, through the introduction of a revolutionary recuperation plant for Ukraine, as well as education and incentives for city residents to participate in responsible waste disposal, sorting, recycling and reuse. We believe in a clean environment, both inside and outside of human consciousness. So we invite you to join.
@@ -12770,7 +12709,7 @@ Finally, the events of 2016-2017 related to the tragedy at the Lviv landfill and
 ''Kyiv MRF'' - це спільна проєктна ініціатива (стартап) Проектного Офісу Національного авіаційного університету і Національного екологічного центру України, спрямована на трансформацію української столиці до стандарту сучасного, сталого та збалансованого міста і, зокрема, на реформацію міської системи поводження з відходами, а саме, її перетворення на екологічно та економічно корисну, шляхом впровадження революційного для України рекупераційного заводу, а також просвіти та стимулювання жителів міста до участі у відповідальній утилізації відходів, їхньому сортуванні, переробці та повторному використанні. Ми віримо у чисте середовище, як всередині, так і назовні людської свідомості. Тож запрошуємо Вас приєднуватись.
 &lt;/div&gt;
 
-&lt;&lt;tabs &quot;$:/plugins/boa/langswap/Content $:/plugins/boa/langswap/Зміст&quot; &quot;$:/plugins/boa/langswap/Content&quot;&gt;&gt;
+&lt;&lt;tabs &quot;$:/plugins/boa/langswap/content-Eng $:/plugins/boa/langswap/content-Ukr&quot; &quot;$:/plugins/boa/langswap/content-Eng&quot;&gt;&gt;
 </pre>
 </div>
 <div created="20200523104804027" modified="20200523105938542" swap="Автори проекту" tags="Eng" title="Project authors" revision="0" bag="default">
@@ -12842,7 +12781,7 @@ The enterprise itself at the early stages of implementation is expected to be mo
 <div created="20190925190449505" list="[[Завдання № 01]] [[Завдання № 02]]" modified="20190926144508278" title="Task" revision="0" bag="default">
 <pre></pre>
 </div>
-<div color="#eae7c1" created="20200430204454066" icon="$:/plugins/boa/langswap/img/UKR.svg" list="Проблема [[Пропоноване рішення і його обґрунтування]] [[Ключові показники оцінки результатів проекту]] [[Соціальна ефективність та загальнодоступність проекту]] [[Бюджетна ефективність проекту]] [[Інноваційність проекту]] [[Орієнтовний план заходів з реалізації проекту]] [[Аналіз ризиків проекту]] [[Відповідальні підрозділи]] [[Аналіз зацікавлених сторін]] [[Автори проекту]]" modified="20200523104741564" swap="Eng" tags="$:/tags/ViewTemplate" title="Ukr" revision="0" bag="default">
+<div color="#eae7c1" created="20200525172349754" icon="$:/plugins/boa/langswap/img/Ukr.svg" list="Проблема [[Пропоноване рішення і його обґрунтування]] [[Ключові показники оцінки результатів проекту]] [[Соціальна ефективність та загальнодоступність проекту]] [[Бюджетна ефективність проекту]] [[Інноваційність проекту]] [[Орієнтовний план заходів з реалізації проекту]] [[Аналіз ризиків проекту]] [[Відповідальні підрозділи]] [[Аналіз зацікавлених сторін]] [[Автори проекту]]" modified="20200525172654430" swap="Eng" tags="$:/tags/ViewTemplate" title="Ukr" revision="0" bag="default">
 <pre>&lt;&lt;simple-navigation tag:Ukr&gt;&gt;</pre>
 </div>
 <div _canonical_uri="./images/Work%2520breakdown.png" created="20200508130346154" modified="20200508130346154" tags="Eng" title="Work breakdown.png" type="image/png" revision="2" bag="default">
@@ -12902,6 +12841,15 @@ The enterprise itself at the early stages of implementation is expected to be mo
 ** Департамент промисловості та розвитку підприємництва (???);
 ** Департамент екологія та природних ресурсів (???).
 * КП “Київкомунсервіс”.</pre>
+</div>
+<div created="20200525173116515" icon="$:/favicon.ico" modified="20200525173119314" swap="Content" tags="Ukr" title="Зміст" revision="0" bag="default">
+<pre>&lt;div class=&quot;sh-multicol2&quot;&gt;
+&lt;&lt;list-links &quot;[list[Ukr]] -[[Зміст]]&quot; &quot;ol&quot;&gt;&gt;
+&lt;/div&gt;
+&lt;!--
+&lt;&lt;alert-warning &quot;Вставте тут [[Зміст]] власну таблицю змісту або щось подібне&quot;&gt;&gt;
+--&gt;
+</pre>
 </div>
 <div created="20200518194333952" modified="20200518202901628" swap="Innovation level of the project" tags="Ukr" title="Інноваційність проекту" revision="0" bag="default">
 <pre>На сьогоднішній день, поводження з відходами в Україні здебільшого тяжіє до традиційних методів захоронення та термічної обробки. Концепція переробки відходів, так само як і концепція вторинних матеріалів у країні знаходиться на дуже ранніх стадіях розвитку. В Україні відсутні великі заводи чи підприємства переробки, рециклінгу або рекуперації, так само як й інших альтернативних методів переробки (подібні проєкти наразі знаходяться або на стадії ідеї, або пробної реалізації). У столиці [[наразі запроваджуються спроби|https://bigkiev.com.ua]] розгортання роздільного збору, з встановленням спеціальних контейнерів та залученням підрядних компаній з сортування, але на сьогоднішній день ці спроби носять хаотичний та точковий характер і не є успішними.
